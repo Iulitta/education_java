@@ -35,6 +35,7 @@ public class Palindrome {
      * @return true, если строка - палиндром, или false, если нет
      */
     public static boolean isPalindrome(String s) {
+
         return s.equals(reverseString(s));
     }
 }
