@@ -86,7 +86,8 @@ public class module3 {
     // Задача 2
     public static int findZip(String str) {
         int indexFirstZip = new StringBuilder(str).indexOf("zip"); // Ищем первое вхождение слова zip в строке
-        return new StringBuilder(str).indexOf("zip", indexFirstZip + 3); // Ищем второе вхождение слова, начиная с известного индекса
+        return new StringBuilder(str).indexOf("zip", indexFirstZip + 3); // Ищем второе вхождение слова,
+                                                                                     // начиная с известного индекса
     }
 
     // Задача 3
