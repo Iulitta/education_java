@@ -28,7 +28,8 @@ public class Mandelbrot extends FractalGenerator {
      * @return количество итераций, не превышающее максимальное (2000), или -1, если превышает
      **/
     @Override
-    public int numIterations(double x, double y) {    //находим количество итераций по рекурентной формуле для каждого пикселя (координаты) и затем устанавливаем пикселю цвет на основе посчитанной итерации
+    public int numIterations(double x, double y) {    //находим количество итераций по рекурентной формуле для каждого
+        // пикселя (координаты) и затем устанавливаем пикселю цвет на основе посчитанной итерации
         ComplexNumber cn1 = new ComplexNumber(x, y);
         ComplexNumber cn2 = new ComplexNumber();
         int iterations = 0;
